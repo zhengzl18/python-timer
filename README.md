@@ -2,14 +2,14 @@
 A small tool for timing the execution of any function or code block during running.
 
 ## Usage
-To timing a code block, wrap it with `with Timeit()` like this:
+To time a code block, wrap it with `with Timeit()` like this:
 ```python
 with Timeit():
   for _ in range(1000):
     pass
 ```
 
-To timing a function, use the decorator `@timeit()` like this:
+To time a function, use the decorator `@timeit()` like this:
 ```python
 @timeit()
 def loop_1000_times():
