@@ -18,7 +18,7 @@ def loop_1000_times():
 ```
 Note that the brackets after timeit are not omittable.
 
-In both case, you may specify a name for the timer and whether to mute the timer. For example:
+In both cases, you may specify a name for the timer and whether to mute the timer. For example:
 ```python
 with Timeit(name="loop 1000 times", mute=False):
   for _ in range(1000):
